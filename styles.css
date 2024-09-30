@@ -211,8 +211,8 @@
   }
 
   .wireless-style {
-    flex-direction: row;
-    gap: 104px;
+    flex-direction: column;
+    gap: 55px;
     padding: 90px;
   }
 
@@ -235,6 +235,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .typemaster-style {
+    width: 445px;
+  }
   .pre-button:hover.pre-button-color {
     background-color: #162542;
     color: white;
